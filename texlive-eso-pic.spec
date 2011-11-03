@@ -1,3 +1,9 @@
+# revision 21515
+# category Package
+# catalog-ctan /macros/latex/contrib/eso-pic
+# catalog-date 2010-10-06 15:20:29 +0200
+# catalog-license lppl1.2
+# catalog-version 2.0c
 Name:		texlive-eso-pic
 Version:	2.0c
 Release:	1
@@ -52,6 +58,7 @@ to LaTeX's shipout actions.
 #- source
 %doc %{_texmfdistdir}/source/latex/eso-pic/eso-pic.dtx
 %doc %{_texmfdistdir}/source/latex/eso-pic/eso-pic.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ to LaTeX's shipout actions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
