@@ -58,3 +58,17 @@ to LaTeX's shipout actions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0c-2
++ Revision: 751580
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0c-1
++ Revision: 718369
+- texlive-eso-pic
+- texlive-eso-pic
+- texlive-eso-pic
+- texlive-eso-pic
+
