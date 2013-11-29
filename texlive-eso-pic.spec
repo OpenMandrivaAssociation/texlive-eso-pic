@@ -1,12 +1,12 @@
-# revision 21515
+# revision 31875
 # category Package
 # catalog-ctan /macros/latex/contrib/eso-pic
-# catalog-date 2010-10-06 15:20:29 +0200
+# catalog-date 2013-10-10 16:26:27 +0200
 # catalog-license lppl1.2
-# catalog-version 2.0c
+# catalog-version 2.0d
 Name:		texlive-eso-pic
-Version:	2.0c
-Release:	2
+Version:	2.0d
+Release:	1
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
@@ -20,9 +20,10 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Eso-pic is an extension of everyshi. Using everyshi's
-\EveryShipout command, eso-pic adds one or more user commands
-to LaTeX's shipout actions.
+The package adds one or more user commands to LaTeX's shipout
+routine, which may be used to place the output at fixed
+positions. The grid option may be used to find the correct
+places.
 
 %post
     %{_sbindir}/texlive.post
@@ -42,7 +43,6 @@ to LaTeX's shipout actions.
 %doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex3.tex
 %doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex4.tex
 %doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex5.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex6.tex
 %doc %{_texmfdistdir}/doc/latex/eso-pic/eso-memoir-test.tex
 %doc %{_texmfdistdir}/doc/latex/eso-pic/eso-pic.pdf
 #- source
@@ -58,17 +58,3 @@ to LaTeX's shipout actions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0c-2
-+ Revision: 751580
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0c-1
-+ Revision: 718369
-- texlive-eso-pic
-- texlive-eso-pic
-- texlive-eso-pic
-- texlive-eso-pic
-
