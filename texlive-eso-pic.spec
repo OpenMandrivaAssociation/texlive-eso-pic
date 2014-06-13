@@ -6,7 +6,7 @@
 # catalog-version 2.0d
 Name:		texlive-eso-pic
 Version:	2.0d
-Release:	5
+Release:	6
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
