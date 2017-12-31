@@ -1,12 +1,6 @@
-# revision 31875
-# category Package
-# catalog-ctan /macros/latex/contrib/eso-pic
-# catalog-date 2013-10-10 16:26:27 +0200
-# catalog-license lppl1.2
-# catalog-version 2.0d
 Name:		texlive-eso-pic
-Version:	2.0d
-Release:	9
+Version:	2.0g
+Release:	1
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
@@ -35,19 +29,10 @@ places.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/eso-pic/eso-pic.sty
-%{_texmfdistdir}/tex/latex/eso-pic/showframe.sty
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-article-test.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex1.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex2.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex3.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex4.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-ex5.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-memoir-test.tex
-%doc %{_texmfdistdir}/doc/latex/eso-pic/eso-pic.pdf
+%{_texmfdistdir}/tex/latex/eso-pic
+%doc %{_texmfdistdir}/doc/latex/eso-pic
 #- source
-%doc %{_texmfdistdir}/source/latex/eso-pic/eso-pic.dtx
-%doc %{_texmfdistdir}/source/latex/eso-pic/eso-pic.ins
+%doc %{_texmfdistdir}/source/latex/eso-pic
 
 #-----------------------------------------------------------------------
 %prep
