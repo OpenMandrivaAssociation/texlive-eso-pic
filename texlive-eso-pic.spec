@@ -1,5 +1,5 @@
 Name:		texlive-eso-pic
-Version:	2.0g
+Version:	2.0h
 Release:	1
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
