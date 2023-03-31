@@ -1,6 +1,6 @@
 Name:		texlive-eso-pic
 Version:	56658
-Release:	1
+Release:	2
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
