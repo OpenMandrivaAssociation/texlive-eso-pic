@@ -3,7 +3,7 @@ Version:	67001
 Release:	1
 Summary:	Add picture commands (or backgrounds) to every page
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eso-pic
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eso-pic.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eso-pic.doc.r%{version}.tar.xz
